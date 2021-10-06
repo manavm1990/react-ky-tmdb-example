@@ -1,5 +1,9 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
+  alias: {
+    components: "./src/components",
+    "@app": "./src",
+  },
   mount: {
     // directory name: 'build directory'
     public: '/',
