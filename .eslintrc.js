@@ -21,6 +21,7 @@ module.exports = {
     "capitalized-comments": "off",
     "new-cap": "off",
     "no-console": "warn",
+    "no-undef": "warn",
     "no-unused-vars": "warn",
     "padding-line-between-statements": "off",
   },
